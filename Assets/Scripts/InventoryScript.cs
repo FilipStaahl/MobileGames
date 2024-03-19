@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class InventoryScript : MonoBehaviour
+
 {
-    public Image itemPrefab; // Reference to the item image prefab
+   public Image itemPrefab; // Reference to the item image prefab
+    
     public Color[] itemColors; // Array of colors for the items
 
     private RectTransform contentRect; // Reference to the Scroll Rect's content area
@@ -28,3 +30,5 @@ public class InventoryScript : MonoBehaviour
         }
     }
 }
+
+
